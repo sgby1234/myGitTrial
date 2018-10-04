@@ -8,4 +8,9 @@ public class trial1
 		int number = addNums();
 		System.out.printf("The sum is %d", number);
 	}
+	
+	private static int addNums()
+	{
+		return (5 + 6);
+	}
 }
